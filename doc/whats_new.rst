@@ -11,15 +11,20 @@ v0.0.9 (Future)
 ---------------
 - `PR #373 <https://github.com/scikit-beam/scikit-beam/pull/373>`_: Major overhaul of the docs
 - `PR #403 <https://github.com/scikit-beam/scikit-beam/pull/401>`_: Adding four time correlation
+- `PR #410 <https://github.com/scikit-beam/scikit-beam/pull/410>`_: Update circular average function in roi.py
 
 v0.0.8 (Next Release)
 ---------------------
 - `PR #395 <https://github.com/scikit-beam/scikit-beam/pull/395>`_: One-time from two-time
-- `PR #407 <https://github.com/scikit-beam/scikit-beam/pull/407>`_: Clarify docstrings for correlation functions in skbeam.core.correlation
-- `PR #408 <https://github.com/scikit-beam/scikit-beam/pull/408>`_: Rework the example notebook conversion in the scikit-beam docs.  The example notebooks are now grouped according to their folder in `scikit-beam-examples <http://github.com/scikit-beam/scikit-beam-examples>`_
-- `PR #405 <https://github.com/scikit-beam/scikit-beam/pull/405>`_: Implement user peak, so users have more flexible control of escape peak or pileup peaks.
 - `PR #401 <https://github.com/scikit-beam/scikit-beam/pull/401>`_: Removing bad images from xsvs
 - `PR #404 <https://github.com/scikit-beam/scikit-beam/pull/404>`_: Implement gisaxs image conversion
+- `PR #405 <https://github.com/scikit-beam/scikit-beam/pull/405>`_: Implement user peak, so users have more flexible control of escape peak or pileup peaks.
+- `PR #407 <https://github.com/scikit-beam/scikit-beam/pull/407>`_: Clarify docstrings for correlation functions in skbeam.core.correlation
+- `PR #408 <https://github.com/scikit-beam/scikit-beam/pull/408>`_: Rework the example notebook conversion in the scikit-beam docs.  The example notebooks are now grouped according to their folder in `scikit-beam-examples <http://github.com/scikit-beam/scikit-beam-examples>`_
+- `PR #414 <https://github.com/scikit-beam/scikit-beam/pull/414>`_:  Enable flake8 coverage on scikit-beam. This will save code review time by allowing us to simply point at the failing flake8 test on travis-ci and say "Fix your code according to those things" instead of manually pointing out all the pep8 violations, like we do now.
+- `PR #415 <https://github.com/scikit-beam/scikit-beam/pull/415>`_: Modify how coverage statistics are gathered. Invoke the test suite with the `coverage` executable so that *all* information is passed into the coverage tool
+- `PR #416 <https://github.com/scikit-beam/scikit-beam/pull/416>`_: Separate the docs from the python 3.5 automated testing matrix element on travis.
+- `PR #417 <https://github.com/scikit-beam/scikit-beam/pull/417>`_: Don't compile the reciprocal space c extensions on windows. There are a multitude of errors in that code on the windows platform.
 
 v0.0.7
 ------
