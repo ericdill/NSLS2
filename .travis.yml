@@ -30,7 +30,9 @@ before_install:
   - ./miniconda.sh -b -p ~/mc
   - export PATH=~/mc/bin:$PATH
   - conda update conda --yes
-  - export CONDARC=ci/condarc
+  - ls
+  - find . -maxdepth 2
+  - export CONDARC=`pwd`/ci/condarc
 
 install:
   - export GIT_FULL_HASH=`git rev-parse HEAD`
